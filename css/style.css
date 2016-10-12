@@ -1,0 +1,21 @@
+/* colors */
+/* fonts */
+/* flex */
+body {
+  margin: 0 auto;
+  padding: 0; }
+
+*img {
+  max-width: 100%;
+  height: auto; }
+
+.wrapper {
+  max-width: 1360px;
+  margin: 0 auto; }
+
+.banner-box {
+  overflow: hidden; }
+
+.banner-box img {
+  width: 100%;
+  float: left; }
