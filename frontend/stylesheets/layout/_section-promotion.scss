@@ -1,0 +1,42 @@
+#promotion{
+  @include flex;
+  justify-content: space-around;
+  font-family: $font-light;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 55px 160px 0;
+}
+.promotion__nav {
+  ul {
+    list-style-type: none;
+  }
+}
+.promotion__image{
+  padding-top: 75px;
+}
+.promotion__nav-item{
+  margin-bottom: 15px;
+  max-width: 400px;
+  padding-top: 70px;
+  &:before{
+  content: "";
+  background-image: url(../images/line.png);
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  }
+}
+.promotion__nav ul li:nth-child(1){
+  background: url(../images/number1.png) no-repeat 81% 0;
+}
+.promotion__nav ul li:nth-child(2){
+  background: url(../images/number2.png) no-repeat 81% 0;
+}
+.promotion__nav ul li:nth-child(3){
+  background: url(../images/number3.png) no-repeat 81% 0;
+}
+.promotion__nav ul li:nth-child(4){
+  background: url(../images/number4.png) no-repeat 81% 0;
+}

@@ -1,0 +1,19 @@
+.forms{
+  @include flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+#nickname, #email, #password{
+  width: 400px;
+  height: 75px;
+  border: none;
+  border-bottom: 1px solid $color-tablefont;
+  font-family: $font-regular;
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 20px;
+  background-color: $color-grey;
+}
+#password{
+  margin-bottom: 55px;
+}

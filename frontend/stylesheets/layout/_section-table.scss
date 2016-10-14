@@ -1,0 +1,100 @@
+#section-table{
+  @include flex;
+  justify-content: space-between;
+  margin: 0 160px 140px;
+}
+.section-table__text{
+  margin-right: 100px;
+}
+.line__title{
+  height: 36px;
+  width: 560px;
+}
+h4 {
+  position: relative;
+  padding: 0 0 0 30px;
+  color: $color-green;
+  font-family: $font-regular;
+  font-size: 12px;
+  &:before {
+    content: "";
+    background-image: url(../images/football.png);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.section-table__chart{
+  @include flex;
+  flex-wrap: wrap;
+  max-height: 760px;
+  &:before{
+    content: "";
+    background-image: url(../images/line-table.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 720px;
+    height: 1px;
+  }
+}
+.section-table__text{
+  min-width: 320px;
+}
+.table__line{
+  height: 80px;
+}
+.line__content{
+  @include flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.line__content-column{
+  @include flex;
+  flex-direction: column;
+  align-content: flex-start;
+  font-size: 10px;
+  color: $color-tablefont;
+}
+.line__content-column p{
+  margin: 0;
+}
+.table__fat{
+  font-size: 12px;
+  font-family: $font-regular;
+  color: $color-black;
+}
+.table__red{
+  color: $color-tablered;
+  font-size: 12px;
+}
+.line__content{
+  position: relative;
+  width: 720px;
+  &:after{
+    content: "";
+    background-image: url(../images/line-table.png);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 720px;
+    height: 1px;
+  }
+}
+.section-table__chart{
+  position: relative;
+}
+.table__link{
+  text-align: center;
+  padding-top: 30px;
+  a{
+    text-decoration: none;
+    color: $color-green;
+    font-family: $font-regular;
+    font-size: 12px;
+    margin-top: 30px;
+  }
+}

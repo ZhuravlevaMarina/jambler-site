@@ -1,0 +1,33 @@
+.social__facebook-button,
+.social__google-button,
+.social__vk-button{
+  padding: 15px 40px;
+  height: 55px;
+  margin-top: 65px;
+  border-radius: 5px;
+}
+.social__facebook-button{
+  background-color: $color-facebook;
+}
+.social__google-button{
+  background-color: $color-google;
+}
+.social__vk-button{
+  background-color: $color-vk;
+}
+.social__facebook-button,
+.social__google-button,
+.social__vk-button{
+  @include flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn__table{
+  font-family: $font-regular;
+  font-size: 14px;
+  background-color: $color-green;
+  color: $color-white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+}

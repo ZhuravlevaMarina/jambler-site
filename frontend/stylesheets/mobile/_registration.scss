@@ -1,0 +1,26 @@
+@media only screen and (max-width: 480px){
+  #registration{
+    flex-wrap: wrap;
+    padding: 80px 22px 50px;
+  }
+  .registration__text,.registration__account-text,.registration__text{
+    font-size: 18px;
+    line-height: 30px;
+    min-width: 289px;
+  }
+  .registration__facebook,.registration__vk,.registration__google{
+    min-width: 289px;
+  }
+  .registration__account-text{
+    margin-bottom: 60px;
+  }
+  .forms{
+    min-width: 320px;
+  }
+  #nickname,#email,#password{
+    width: 276px;
+  }
+  .registration__account{
+    padding-left: 0;
+  }
+}

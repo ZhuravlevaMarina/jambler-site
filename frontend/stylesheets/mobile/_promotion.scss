@@ -1,0 +1,23 @@
+@media only screen and (max-width: 480px){
+
+  .promotion__image {
+    display: none;
+  }
+  #promotion {
+    @include flex;
+    flex-wrap: wrap;
+    padding: 0 22px;
+    background-color: $color-white;
+  }
+  .promotion__nav {
+    margin-top: 150px;
+    ul {
+      padding: 0;
+    }
+  }
+  .promotion__nav-item {
+    font-size: 18px;
+    line-height: 30px;
+    min-width: 280px;
+  }
+}

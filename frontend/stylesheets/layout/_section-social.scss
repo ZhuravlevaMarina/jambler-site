@@ -1,0 +1,39 @@
+#social{
+  @include flex;
+  justify-content: flex-start;
+  margin: 160px 160px 195px;
+}
+.social__text{
+  @include text;
+  margin-left: 180px;
+}
+.social{
+  a{
+    text-decoration: none;
+    color: $color-white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: $font-bold;
+  }
+}
+.social__image{
+  padding-right: 15px;
+}
+.social__box{
+  @include flex;
+  flex-direction: column;
+}
+.social__facebook,
+.social__google,
+.social__vk{
+  @include flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.social__facebook-users,
+.social__google-users,
+.social__vk-users{
+  padding: 0 0 0 20px;
+  font-family: $font-light;
+  font-size: 24px;
+}

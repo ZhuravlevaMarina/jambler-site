@@ -1,0 +1,144 @@
+#footer{
+  padding: 30px 80px 40px;
+  @include flex;
+  flex-direction: row;
+  font-family: $font-regular;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: $color-grey;
+  position: relative;
+  flex-wrap: wrap;
+  &:before{
+  content: "";
+  background-image: url(../images/line-table.png);
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 100%;
+  height: 1px;
+}
+}
+.footer__grey,.footer__logo-grey{
+ @include flex;
+  justify-content: space-between;
+  width: 150px;
+  height: 40px;
+  margin: 0;
+}
+.footer__help{
+  @include flex;
+  flex-direction: column;
+  margin-right: 22px;
+}
+.footer__logo-bottom{
+  margin-top: 40px;
+}
+.footer__logo{
+  margin-right: 130px;
+  @include flex;
+  flex-direction: column;
+}
+.footer__logo-images{
+  margin-right: 20px;
+}
+.footer__grey,.footer__logo-grey{
+  color: $color-footer;
+  text-transform: uppercase;
+}
+.footer__item{
+  padding-right: 10px;
+  a{
+    text-decoration: none;
+    color: $color-footerlink;
+  }
+}
+.footer__link{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.footer__logo-bottom .footer__link{
+  @include flex;
+  flex-wrap: wrap;
+}
+.footer__copyright{
+  text-transform: none;
+}
+.footer__icons{
+  @include flex;
+  flex-wrap: wrap;
+  color: $color-footer;
+  font-family: $font-regular;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.footer__right{
+ @include flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 5px 0 0 0;
+}
+.footer__icons-text{
+  margin-right: 10px;
+}
+.swiper-button-next{
+  display: none;
+}
+.footer__icons-icon{
+  @include flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.iconsfb{
+  background: url(../images/iconF.png) no-repeat 0 0;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.iconsg{
+  background: url(../images/iconG.png) no-repeat 0 0;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.iconsvk{
+  background: url(../images/iconVk.png) no-repeat 0 0;
+  width: 30px;
+  height: 30px;
+}
+.swiper-button-prev{
+  display: none;
+}
+.footer__icons-right{
+  display: none;
+}
+.footer__logo-bottom .footer__grey{
+  display: none;
+}
+.footer__logo-bottom{
+  @include flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.footer__logo-bottom .footer__link{
+  @include flex;
+  flex-wrap: nowrap;
+}
+.footer__app{
+@include flex;
+  width: 270px;
+  height: 40px;
+  justify-content: space-between;
+}
+.creditcards{
+  display: none;
+}
+.footer-line{
+  display: none;
+}
+.footer__icon-start{
+  display: none;
+}
+.go_to_top{
+  display: none;
+}

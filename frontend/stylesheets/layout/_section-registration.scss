@@ -1,0 +1,58 @@
+#registration{
+  @include flex;
+  justify-content: space-between;
+  padding: 180px 240px 0;
+  background-color: $color-grey;
+  padding-bottom: 145px;
+}
+.registration__forms{
+  max-width: 400px;
+}
+
+.registration__text:before,
+.registration__account-text:before{
+  @include line_text;
+}
+.registration__account-text{
+  position: relative;
+  margin-bottom: 90px;
+}
+.registration__text{
+  margin-bottom: 10px;
+}
+.registration__account{
+  padding-left: 150px;
+  padding-top: 75px;
+}
+.registration__form{
+  @include flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  a{
+  text-decoration: none;
+  color: $color-white;
+  font-family: $font-regular;
+  font-size: 18px;
+  padding-top: 10px;
+}
+}
+.registration__form
+.registration__facebook,
+.registration__google,
+.registration__vk{
+  width: 200px;
+  height: 48px;
+  margin-bottom: 19px;
+  border-radius: 5px;
+  text-align: center;
+}
+.registration__facebook{
+  background-color: $color-facebook;
+}
+.registration__google{
+  background-color: $color-google;
+  margin-bottom: 19px;
+}
+.registration__vk{
+  background-color: $color-vk;
+}

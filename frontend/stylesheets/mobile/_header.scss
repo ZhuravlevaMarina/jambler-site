@@ -1,0 +1,122 @@
+@media only screen and (max-width: 480px){
+  .logo-jambler__text{
+    display: none;
+  }
+  .header-box{
+    padding: 26px 22px;
+  }
+  .header-nav{
+    margin: 0;
+    background-color: $color-green;
+    box-sizing: border-box;
+  }
+  .header-box__nav{
+    box-sizing: border-box;
+    display: inline-block;
+    list-style: none;
+    color: $color-white;
+    margin: 0;
+  }
+  .header-nav__item{
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .hiddenmenu{
+    a{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    }
+  }
+  #menu{
+    @include flex;
+  }
+  #name{
+    display: none;
+  }
+  .btn-submit{
+    background: url(../images/button_in.png) no-repeat -3px 6px;
+    color: $color-green;
+    width: 60px;
+    height: 40px;
+    background-color: $color-grey;
+  }
+  .header-box__nav{
+    flex-wrap: wrap;
+    display: none;
+  }
+  .header-box:before{
+    display: none;
+  }
+  .open_menu{
+    @include flex;
+    background-color: $color-green;
+    width: 75px;
+    height: 30px;
+    color: $color-white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: $font-regular;
+    font-size: 14px;
+    line-height: 36px;
+    padding: 7px 20px;
+    text-align: center;
+    position: relative;
+  }
+  .header-nav__item {
+    display: inline-block;
+    padding: 5px 10px;
+    a {
+      color: $color-green;
+    }
+  }
+  .header-nav{
+    background: none;
+    position: absolute;
+    left:20;
+    top:70px;
+    width: 150px;
+    height:200px;
+  }
+  .header-box__logo-jambler{
+    display: none;
+  }
+  #hiddendekstop{
+    @include flex;
+    height: 33px;
+  }
+  #logohidden320{
+    display: none;
+  }
+  .header-down__image img{
+    display: none;
+  }
+  .header-down__text{
+    min-width: 320px;
+    padding: 0;
+  }
+  .header__text{
+    width: 290px;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+    margin-bottom: 55px;
+    padding: 0;
+  }
+  .popup__block{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .header-down{
+    @include flex;
+    flex-wrap: wrap;
+    background-color: $color-grey;
+    padding: 0 22px;
+  }
+  .btn{
+    width: 290px;
+  }
+}

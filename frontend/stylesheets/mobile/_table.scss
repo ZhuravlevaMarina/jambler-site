@@ -1,0 +1,43 @@
+@media only screen and (max-width: 480px){
+  .section-table__text{
+    font-size: 18px;
+    line-height: 30px;
+    min-width: 280px;
+  }
+  #section-table{
+    @include flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 20px 22px;
+  }
+  .section-table__chart{
+    width: 280px;
+    &:before{
+      width: 320px;
+    }
+  }
+  .line__title h4{
+    width: 270px;
+  }
+  .line__content{
+    width: 320px;
+    &:after{
+      width: 320px;
+    }
+  }
+  .hidden320{
+    display: none;
+  }
+  .for320{
+    background: url(../images/arrow.png) no-repeat 0 0;
+    width: 9px;
+    height: 16px;
+    border: none;
+  }
+  #section-table{
+    margin-bottom: 80px;
+  }
+  .table__link{
+    display: none;
+  }
+}

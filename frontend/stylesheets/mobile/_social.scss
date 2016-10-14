@@ -1,0 +1,23 @@
+@media only screen and (max-width: 480px) {
+  #social{
+    @include flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 40px 22px 40px;
+  }
+  .social__text{
+    width: 100%;
+    order: 1;
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+    min-width: 280px;
+  }
+  .social__box{
+    order: 2;
+  }
+  .social__google-users,.social__facebook-users,
+  .social__vk-users{
+    display: none;
+  }
+}
